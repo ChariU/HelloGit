@@ -1,13 +1,13 @@
- package rect;
+package rect;
 
 public class Rectangle {
-	
-	private int width,height;
-	
-	public Rectangle (int width, int height) {
+
+	private int width, height;
+
+	public Rectangle(int width, int height) {
 		super();
-		this.width = Math.max(1,width);
-		this.height = Math.max(1,height);
+		this.width = Math.max(1, width);
+		this.height = Math.max(1, height);
 	}
 
 	public int getWidth() {
@@ -17,9 +17,9 @@ public class Rectangle {
 	public int getHeight() {
 		return height;
 	}
-	
+
 	public int getArea() {
-		return this.width*this.height;
+		return this.width * this.height;
 	}
-	
+
 }
