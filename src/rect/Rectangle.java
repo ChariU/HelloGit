@@ -18,5 +18,8 @@ public class Rectangle {
 		return height;
 	}
 	
+	public int getArea() {
+		return this.width*this.height;
+	}
 	
 }
